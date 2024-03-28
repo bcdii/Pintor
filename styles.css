@@ -17,8 +17,8 @@
 
 /* Estilo adicional para o conteúdo da página */
 body {
-  
     font-family: "inter", sans-serif;
+    background-color: #2f2d43;
 }
 
 header {
@@ -51,18 +51,18 @@ header {
     background-color: #ffffff17;
     margin: 10px auto;
     border-radius: 5px;
-    border: 2px solid #636a8128;
+    border: 2px solid #ffffff25;
 }
 
 .adc div {
     height: 30px;
     padding: 10px;
-    color: #636A81;
+    color: #FFF;
     display: flex;
-    background-color: #ffffff8e;
+    background-color: #2f2d43b0;
     border-radius: 5px;
     margin: 10px;
-    border: 2px solid #636a8128;
+    border: 2px solid #ffffff34;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -77,7 +77,7 @@ header {
 }
 
 .title-adc p {
-    color: #636A81;
+    color: #FFF;
 }
 
 .icon-flex {
@@ -107,7 +107,7 @@ main .form_orcamento {
     margin: auto;
     justify-content: space-around;
     display: flex;
-    border: 2px solid #636a8121;
+    border: 2px solid #ffffff2a;
     padding: 10px 0px;
     border-radius: 5px;
     background-color: #ffffff1b;
@@ -127,7 +127,7 @@ main .form_orcamento {
 
 label {
     margin-right: 20px;
-    color: #636A81;
+    color: #FFF;
     font-size: 20px;
 }
 
@@ -135,8 +135,8 @@ input {
     width: 200px;
     height: 30px;
     font-size: 20px;
-    color: #454a5b;
-    border: 1px solid #717994;
+    color: #FFF;
+    border: 2px solid #ffffff77;
     border-radius: 5px;
     padding: 5px;
     background-color: #636a8108;
@@ -152,9 +152,9 @@ input {
     margin:  30px auto;
     background-color: #636a8108;
     transition: 0.5s;
-    border: 2px solid #636A81;
+    border: 2px solid #ffffff7b;
     border-radius: 5px;
-    color: #636A81;
+    color: #ffffff7f;
     font-family: "inter", sans-serif;
     font-size: 18px;
 }
@@ -166,7 +166,7 @@ input {
 }
 
 p {
-    color: #01ad5a;
+    color: #02d06c;
     display: flex;
     justify-content: center;
     align-items: center;
