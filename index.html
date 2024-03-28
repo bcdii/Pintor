@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Orçamento para Pintor</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="background-container">
+        <!-- Conteúdo da sua página aqui -->
+    </div>
+
+    <header>
+        <div class="icon-flex">
+            <img src="./assets/icon-pintor.png" alt="">
+        </div>
+            
+        <div class="resultado-title">
+            <div id="resultado">R$</div>
+        </div>
+        <h1>Pintor</h1>
+    </header>
+
+    <main>
+        <form action="form_orcamento" class="form_orcamento">
+        <div class="input-ini">
+            <label for="dias">Dias de trabalho: </label>
+            <input type="number" id="dias">
+        </div>
+        <p>✖</p>
+        <div class="input-ini">
+            <label for="mao_de_obra">Mão de Obra: </label>
+            <input type="number" id="mao_de_obra">
+        </div>
+        <button type="button" class="orcar" onclick="calcular()">Calcular</button>
+        </form> 
+        
+        <div class="adc">
+            <div class="title-adc">
+                <p>Data do Orçamento</p>
+                <p>Dias</p>
+                <p>Mão de Obra</p>
+                <p>Valor Total</p>
+            </div>
+            <div>
+                <p id="orcamento-adc"></p>
+                <p id="dias-adc"></p>
+                <p id="mao-adc"></p>
+                <p id="valor-adc"></p>
+            </div>
+        </div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
